@@ -1,0 +1,114 @@
+@font-face {
+    font-family: AssafFont;
+    src: url(fonts/Assaf.otf);
+    
+}
+@font-face{
+    font-family: StrawberryMuffins Demo;
+    src: url(fonts/Strawberry.ttf);
+}
+@font-face{
+    font-family: airstrike;
+    src: url(fonts/airstrike.ttf);
+}
+
+body{
+    background-color: #39E560;
+    
+}
+
+.title{
+    text-align: center;
+    background: #ffc952;
+    border: #22E8DD 5px solid;
+    border-style: outset;
+    border-radius: 20px;
+    font-size: 50px;
+    font-family: airstrike;
+    width: 1000px;
+    height: 80px;
+    
+}
+.title:hover{
+    
+    
+    background-color:#FF832D; 
+}
+
+.editor{
+    
+    background: #ff7473;
+    border: #22E8DD 5px solid;
+        border-style: outset;
+
+    border-radius: 20px;
+    font-size: 30px;
+    width: 500px;
+    height: 70px;
+    font-family: StrawberryMuffins Demo;
+}
+    
+    .editor:hover {
+        
+        background-color: #FF832D ;
+    }
+    
+    
+    
+
+
+.img1{
+    
+    border:5px #000 solid;
+    border-radius: 1000px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover:not(.active) {
+    background-color: #4CAF50;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.info{
+    background-color: #27344a;
+     border: 10px solid #FF832D;
+    border-radius: 30px;
+    color: #f9f9f9;
+    font-size: 40px;
+    font-family: AssafFont;
+    
+    
+}
+.font{
+    background-color: #3393E8;
+    color: #f9f9f9;
+    border: #000 10px outset;
+    width: 300px;
+    
+}
+.img2{
+     border:5px #000 solid;
+    
+}
